@@ -1,0 +1,7 @@
+.button-container{
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(148, 120, 186, 0.32);
+}
