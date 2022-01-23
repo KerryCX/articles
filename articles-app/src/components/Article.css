@@ -1,0 +1,97 @@
+
+.article{
+    padding: 10px;
+}
+
+.button-container{
+    text-align: center;
+    width: 200px;
+}
+.big{
+    font-size: 35px;
+}
+.redBackground{
+    background-color: red;
+}
+
+.button-color{
+    background-color: #b5f8fe;
+    color: #1C0466;
+    padding: 2px;
+    margin:2px 20px 2px 20px;
+}
+
+.container{
+    display: grid;
+    grid:
+    '. . . '
+    '. . . ';
+    text-align: left;
+    padding: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.small{
+    font-size: 25px;
+}
+
+.blue-bg{
+    background-color: #0e0ed5;
+    color: #fff;
+}
+
+.blue-text{
+    background-color: #ffffff;
+    color: #4f6fa9;
+    border: solid 2px #4f6fa9;
+}
+
+.orange-text{
+    background-color: #ffffff;
+    color: darkorange;
+    border: solid 2px darkorange;
+}
+.orange-bg{
+    background-color: darkorange;
+    color: black;
+}
+.red-bg{
+    background-color: red;
+    color: #d6feb5;
+}
+
+.red-text{
+    background-color: #ffffff;
+    color: red;
+    border: solid 2px red;
+}
+.green-bg{
+    background-color: green;
+    color: black;
+}
+.green-text{
+    background-color: #ffffff;
+    color: green;
+    border: solid 2px green;
+}
+
+.yellow-bg{
+    background-color: yellow;
+    color: black;
+}
+.yellow-text{
+    background-color: #ffffff;
+    color: yellow;
+    border: solid 2px yellow;
+}
+
+.pink-text{
+    background-color: #ffffff;
+    color: pink;
+    border: solid 2px pink;
+}
+.pink-bg{
+    background-color: pink;
+    color: black;
+}
