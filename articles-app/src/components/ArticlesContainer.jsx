@@ -1,4 +1,4 @@
-import "./Article.css";
+import "./ArticlesContainer.css";
 import { Article } from './Articles.jsx';
 
 export const ArticlesContainer = () => {

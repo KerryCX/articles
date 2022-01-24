@@ -9,6 +9,7 @@
 }
 .big{
     font-size: 35px;
+    text-transform: capitalize;
 }
 .redBackground{
     background-color: red;
@@ -21,20 +22,11 @@
     margin:2px 20px 2px 20px;
 }
 
-.container{
-    display: grid;
-    grid:
-    '. . . '
-    '. . . ';
-    text-align: left;
-    padding: 10px;
-    column-gap: 10px;
-    row-gap: 10px;
-}
-
 .small{
     font-size: 25px;
+    text-transform: capitalize;
 }
+
 
 .blue-bg{
     background-color: #0e0ed5;
