@@ -21,11 +21,6 @@ export const Article = (props) => {
                                 console.log(props.title + " " + props.subtitle)
                                 }}>Console.log title and subtitle
                             </button>
-                            <button className={"button-color"} onClick={() => {
-                                const newStyle = getClassExtension(articleStyle)
-                                changeStyle(newStyle)
-                                }}>Toggle Colours!
-                            </button>
                             <Button clickHandler={()=>{
                                 const newStyle = getClassExtension(articleStyle)
                                 changeStyle(newStyle)
