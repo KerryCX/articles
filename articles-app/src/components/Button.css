@@ -5,3 +5,9 @@
     margin: 5px;
     background-color: rgba(148, 120, 186, 0.32);
 }
+
+.buttons-box{
+    position: relative;
+    justify-content: center;
+    display: flex;
+}

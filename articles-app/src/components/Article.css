@@ -7,7 +7,7 @@
     text-align: center;
     width: 200px;
 }
-.big{
+.large-heading{
     font-size: 35px;
     text-transform: capitalize;
 }
@@ -22,9 +22,10 @@
     margin:2px 20px 2px 20px;
 }
 
-.small{
+.small-heading{
     font-size: 25px;
     text-transform: capitalize;
+    text-align: left;
 }
 
 
