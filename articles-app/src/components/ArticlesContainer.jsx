@@ -3,7 +3,7 @@ import { Article } from './Articles.jsx';
 
 export const ArticlesContainer = () => {
     return(
-        <div>
+        <div className="container">
             <Article
                 color={"red"}
                 title={"this is the perfect title"}
