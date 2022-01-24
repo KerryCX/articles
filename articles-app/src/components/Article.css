@@ -1,14 +1,17 @@
+*{
+    box-sizing: border-box;
+}
 
 .article{
     padding: 10px;
+    position: relative;
+    height: 30rem;
 }
 
-.button-container{
-    text-align: center;
-    width: 200px;
-}
-.big{
+
+.large-heading{
     font-size: 35px;
+    text-transform: capitalize;
 }
 .redBackground{
     background-color: red;
@@ -21,20 +24,12 @@
     margin:2px 20px 2px 20px;
 }
 
-.container{
-    display: grid;
-    grid:
-    '. . . '
-    '. . . ';
+.small-heading{
+    font-size: 25px;
+    text-transform: capitalize;
     text-align: left;
-    padding: 10px;
-    column-gap: 10px;
-    row-gap: 10px;
 }
 
-.small{
-    font-size: 25px;
-}
 
 .blue-bg{
     background-color: #0e0ed5;
@@ -94,4 +89,8 @@
 .pink-bg{
     background-color: pink;
     color: black;
+}
+
+.content-styling{
+    margin-bottom: 5px;
 }

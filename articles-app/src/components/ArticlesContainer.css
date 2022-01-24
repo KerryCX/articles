@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid:
+    '. . . '
+    '. . . ';
+    text-align: center;
+    padding: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+
+
+}

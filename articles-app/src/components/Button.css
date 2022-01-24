@@ -1,7 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
 .button-container{
     text-align: center;
     width: 200px;
     padding: 5px;
     margin: 5px;
     background-color: rgba(148, 120, 186, 0.32);
+}
+
+.buttons-box{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
 }
