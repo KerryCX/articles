@@ -7,8 +7,7 @@ export const Article = (props) => {
     const [articleStyle, changeStyle] = useState("-bg")
 
     return(
-    // eslint-disable-next-line
-        <article className={"article" + " " + ((props.color || "blue") + articleStyle)}>
+        <article className={"article " + ((props.color || "blue") + articleStyle)}>
                     <h2 className={"small-heading"}>{props.title}</h2>
                     <h4 className={"large-heading"}>{props.subtitle}</h4>
                     <p className="content-styling">{props.content}</p>
@@ -16,12 +15,14 @@ export const Article = (props) => {
                             <Button clickHandler={() => {
                                 console.log(props.title + " " + props.subtitle)
                                 }}
+                                buttonClasses={"button-styling " + ((props.color || "blue") + articleStyle)}
                                 text={"Console.log title and subtitle"}
                             />
                             <Button clickHandler={() => {
                                 const newStyle = getClassExtension(articleStyle)
                                 changeStyle(newStyle)
                                 }}
+                                buttonClasses={"button-styling " + ((props.color || "blue") + articleStyle)}
                                 text={"Toggle Colours!"}
                             />
                         </div>

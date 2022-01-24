@@ -101,3 +101,12 @@
     transform: translate(-50%, -50%);
     margin: 0 auto;
 }
+
+*{
+    box-sizing: border-box;
+}
+
+.button-styling{
+    padding: 2px;
+    margin:2px 20px 2px 20px;
+}
