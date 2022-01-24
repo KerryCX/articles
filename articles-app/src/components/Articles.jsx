@@ -1,5 +1,7 @@
 import {useState} from "react";
 import {Button} from "./Button.jsx";
+import "./Button.css"
+
 import "./Article.css";
 
 const getClassExtension = (currentExtension) => currentExtension === "-bg" ? "-text" : "-bg"
