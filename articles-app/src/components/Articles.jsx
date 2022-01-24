@@ -12,7 +12,7 @@ export const Article = (props) => {
 
                     <h2 className={"small-heading"}>{props.title}</h2>
                     <h4 className={"large-heading"}>{props.subtitle}</h4>
-                    <p>{props.content}</p>
+                    <p className="content-styling">{props.content}</p>
                     <section className="buttons-box">
                         <div className={"button-container"}>
                             <button className={"button-color"} onClick={() => {

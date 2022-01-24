@@ -1,6 +1,11 @@
+*{
+    box-sizing: border-box;
+}
 
 .article{
     padding: 10px;
+    position: relative;
+    height: 30rem;
 }
 
 .button-container{
@@ -87,4 +92,8 @@
 .pink-bg{
     background-color: pink;
     color: black;
+}
+
+.content-styling{
+    margin-bottom: 5px;
 }
