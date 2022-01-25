@@ -11,6 +11,23 @@
     padding: 10px;
     column-gap: 10px;
     row-gap: 10px;
+    height: auto;
+}
 
-
+@media (max-width: 600px){
+    .container{
+        grid:
+        '. '
+        '. '
+        '. '
+        '. '
+        '. '
+        '. ';
+        padding: 5px;
+        column-gap: 5px;
+        row-gap: 5px;
+        width: 100vw;
+        height: auto;
+        justify-content: space-evenly;
+    }
 }
