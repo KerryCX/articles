@@ -13,16 +13,24 @@ export const ArticlesContainer = () => {
                 "that I know of" +
                 "         welcome to our world thit sis the stes palc 5to liv in othe colare system"}
             />
-                      <Article
-                          color={"orange"}
-                          title={"second title"}
-                          subtitle={"holy moley guacamole"}
-                          content={"Hello. tijkukghakhkj ih iuay hiourhku iuryiukyhiuayuyru u yiurtujargiuhu jkh" +
-                                          "kjhkuhkujah iljiojo  oij iu ijiou jiluoijiou  this i the vesrtt way o doing this typing," +
-                                          "that I know of" +
-                                          "welcome to our world thit sis the stes palc 5to liv in othe colare system"}
-
-                      />
+            <Article
+            color={"orange"}
+            title={"second title"}
+             subtitle={"holy moley guacamole"}
+             content={"Hello. tijkukghakhkj ih iuay hiourhku iuryiukyhiuayuyru u yiurtujargiuhu jkh" +
+             "kjhkuhkujah iljiojo  oij iu ijiou jiluoijiou  this i the vesrtt way o doing this typing," +
+             "that I know of" +
+             "welcome to our world thit sis the stes palc 5to liv in othe colare system" +
+             "kjhkuhkujah iljiojo  oij iu ijiou jiluoijiou  this i the vesrtt way o doing this typing," +
+             "that I know of" +
+              "welcome to our world thit sis the stes palc 5to liv in othe colare system"+
+              "kjhkuhkujah iljiojo  oij iu ijiou jiluoijiou  this i the vesrtt way o doing this typing," +
+              "that I know of" +
+              "welcome to our world thit sis the stes palc 5to liv in othe colare system"+
+              "kjhkuhkujah iljiojo  oij iu ijiou jiluoijiou  this i the vesrtt way o doing this typing," +
+              "that I know of" +
+              "welcome to our world thit sis the stes palc 5to liv in othe colare system"}
+              />
                       <Article
                           color={"yellow"}
                           title={"third title"}
